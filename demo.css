@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    margin: 100px;
+}
+.prevAct,.nextAct{
+    display: inline-block;
+    width: 52px;
+    height: 22px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #434343;
+    margin: 5px;
+    text-align: center;
+    line-height: 22px;
+}
+.prevAct:hover
+,.index:hover,
+.nextAct:hover{
+    border: 1px solid blue;
+}
+.prevNeg,.nextNeg{
+    display: inline-block;
+    width: 52px;
+    height: 22px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #434343;
+    background: #ccc;
+    margin: 5px;
+}
+.index,.indexAct{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #434343;
+    margin: 5px;
+    text-align: center;
+    line-height: 22px;
+}
+.indexAct{
+    border: 1px solid blue;
+}
